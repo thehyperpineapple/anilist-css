@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root {
+    --dark:#000005;
+    --navTextColor:#6A5ACD;
+    --textColor:#9b9aa1;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background: black;
+    cursor: url(https://i.imgur.com/FlmDp5w.png), auto;
+}
+#nav[data-v-4fbac4e1] {
+    background-color: transparent;
+}
+.links[data-v-4fbac4e1] {
+    color:var(--navTextColor);
+}
+.links[data-v-4fbac4e1]:hover {
+    font-size: 100%
+}
+.browse-wrap {
+    display: none;
+}
+#nav > div.wrap > div.links > a:nth-child(6) {
+    display: none;
+}
+#nav > div.wrap > a > img {
+    display: none;
+}
+#nav > div.wrap > div.search > svg {
+    color:var(--navTextColor)
+}
+@keyframes morphing {
+    0% {
+        border-color: #050214
+    }
+    25% {
+        border-color: #050214
+    }
+    40% {
+        border-color: #050214
+    }
+    50% {
+        border-color: #050214
+    }
+    60% {
+        border-color:#050214
+    }
+    75% {
+        border-color:#050214
+    }
+    100% {
+        border-color:#050214
+    }
+}
+/**/
+ .nav-wrap[data-v-5445dac8] {
+    background-color: #050214;
+}
+.nav.container[data-v-5445dac8] > a {
+    color:var(--textColor);
+}
+.page-content {
+    background-color: #050214;
+}
+.content-wrap {
+    animation-name: morphing;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    background-color: var(--dark) !important;
+}
+.activity-entryactivity-message, .activity-entry.activity-anime_list, .activity-entry.activity-manga_list, .activity-entry.full-width.activity-message, .activity-entry {
+    background-color: var(--dark);
+}
+.wrap[data-v-6c3dc0b8] {
+    background-color: transparent;
+}
+.favourites-wrap.staff, .favourites-wrap.characters, .favourites-wrap.manga, .favourites-wrap.anime, .favourites-wrap.studios .markdown-editor, .input.el-textarea {
+    background-color: var(--dark) !important;
+}
+.textarea.el-textarea__inner {
+    background-color: #050214 !important;
+}
+.milestones {
+    display:none !important;
+}
+.activity-replies > .reply,
+div[data-v-64116ff5] > .wrap,
+div[data-v-64116ff5] > .list.small {
+    background:var(--dark) !important;
+}
+#app > div.wrap {
+    display:none
+}
+.list-section {
+    background-color:var(--dark) !important;
+}
+.el-input-group__append, .el-input-group__prepend, .el-input__inner, .el-textarea__inner {
+    background: var(--dark);
+}
+.filter-group .active[data-v-063397cc] {
+    background: var(--dark);
+}
+.theme-switch[data-v-0567dd85] {
+    background: var(--dark);
+}
+.el-slider__runway {
+    background: var(--dark);
+}
+.el-slider__button {
+    background-color: #050214;
+    border-color: var(--dark);
+}
+.favourites-wrap[data-v-1496db1c] {
+    background: var(--dark);
+}
+.pie-chart[data-v-26dc9635] {
+    background: var(--dark);
+}
+.switch[data-v-05bb5e72] {
+    background: var(--dark);
+}
+.filter-group a.router-link-active[data-v-1e00b9da] {
+    background: var(--dark);
+}
+.bar-chart-wrap[data-v-46edc0ca] {
+    background: var(--dark);
+}
+.x-axis[data-v-3251fadf] {
+    background: var(--dark);
+}
+[data-v-72dc5b51] .horizontal-scroller {
+    background: var(--dark);
+}
+.line-chart-wrap[data-v-84e71bc6] {
+    background: var(--dark);
+}
+.stat-card[data-v-00bfdb9a] {
+    background: var(--dark);
+}
+.relations-wrap[data-v-00bfdb9a] {
+    background: var(--dark);
+}
+.highlight .circle[data-v-72dc5b51] {
+    background: var(--dark)4;
+}
+.filter-group span.active[data-v-310d8b7e] {
+    background: var(--dark);
+}
+.hohThemeSwitch {
+    background: var(--dark);
+}
+.filter-group span.active[data-v-3ed82f3f] {
+    background: var(--dark);
+}
+.user-follow .follow-card {
+    background-color: transparent !important;
+}
+.favourites .favourite {
+    background-color: var(--dark);
+}
+.content[data-v-0369a0cf] {
+    background: var(--dark);
+}
+.thread-card[data-v-70ae1ba4] {
+    background: var(--dark);
+}
+.comment-wrap[data-v-768af104] {
+    background: var(--dark);
+}
+.progress[data-v-815ccddc] {
+    background: var(--dark);
+}
+.wrap[data-v-13cdaed6] {
+    background: #101010;
+}
+.content[data-v-1359d866] {
+    background: var(--dark);
+}
+::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: black;
+    box-shadow: 0 0 1px 1px transparent, inset 0 0 4px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #000;
+    box-shadow: inset 0 0 1px 1px #6A5ACD;
+}
